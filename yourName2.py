@@ -1,6 +1,6 @@
-while True:
+while True: 
     print('Please type your name.')
-    name = input()
+    name = input() # creates infinite loop
     if name == 'your name':
-        break
+        break # exits program
 print('Thank you!')
